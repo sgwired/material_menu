@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+</head>
+<body>
+    <!-- Dropdown Prouct -->
+    <ul id="dropdownProduct" class="dropdown-content">
+        <li><a href="#!">Product Center</a></li>
+        <li><a href="#!">Pricing Module</a></li>
+        <li><a href="#!">Tooling</a></li>
+        <li><a href="#!">COGS</a></li>
+    </ul>
+    <!-- Dropdown Sales -->
+    <ul id="dropdownSales" class="dropdown-content">
+        <li><a href="#!">Price List</a></li>
+        <li><a href="#!">Forecasting</a></li>
+        <li><a href="#!">Forecasting Approvals Page</a></li>
+        <li><a href="#!">Reports</a></li>
+        <li><a href="#!">Deals</a></li>
+        <li><a href="#!">Sample Request</a></li>
+    </ul>
+    <!-- Dropdown Operations-->
+    <ul id="dropdownOperations" class="dropdown-content">
+        <li><a href="#!">Air Freight Request</a></li>
+        <li><a href="#!">Travel Request</a></li>
+        <li><a href="#!">Budget</a></li>
+    </ul>
+    <!-- Dropdown Creative -->
+    <ul id="dropdownCreative" class="dropdown-content">
+        <li><a href="#!">Image Request</a></li>
+        <li><a href="#!">Model Shop Request</a></li>
+        <li><a href="#!">3D Design Request</a></li>
+        <li><a href="#!">Soft Goods Request</a></li>
+        <li><a href="#!">Package Die Line Request</a></li>
+        <li><a href="#!">Merchandise Render Request</a></li>
+    </ul>
+    <!-- Dropdown Support-->
+    <ul id="dropdownSupport" class="dropdown-content">
+        <li><a href="#!">Support Request Browser</a></li>
+        <li><a href="#!">New Support Request</a></li>
+        <li><a href="#!">View My Request</a></li>
+    </ul>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper" blue>
+                <a href="#" class="brand-logo">The Clubhouse</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Home</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdownProduct">Product Center</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdownSales">Salse & Forecasting</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdownOperations">Operations</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdownCreative">Creative Resources</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdownSupport">Support</a></li>
+                    <li>crisa</li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="card-panel">
+        <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
+    </div>
+    <div class="card-panel #ffcdd2 lighten-2">This is a card panel with a teal lighten-2 class</div>
+
+    <!--Import jQuery Library-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+<!-- Compiled and minified JavaScript -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+   <script>
+       $(document).ready(function() {
+           
+           $(".dropdown-trigger").dropdown();
+       })
+    
+    </script>
+</body>
+</html>
